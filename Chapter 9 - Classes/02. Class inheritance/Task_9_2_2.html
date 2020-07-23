@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Extended clock</title>
+</head>
+<body>
+<script src="Clock.js"></script>
+<script src="ExtendedClock.js"></script>
+<script>
+    let extendedClock = new ExtendedClock({
+        template: 'h:m:s',
+        precision: 1000
+    });
+
+    extendedClock.start();
+</script>
+</body>
+</html>
